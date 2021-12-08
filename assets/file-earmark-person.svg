@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.5" height="22" viewBox="0 0 16.5 22">
+  <g id="file-earmark-person" transform="translate(-2)">
+    <path id="Path_1" data-name="Path 1" d="M13.25,9.125A4.125,4.125,0,1,1,9.125,5,4.125,4.125,0,0,1,13.25,9.125Z" transform="translate(1.125 1.875)"/>
+    <path id="Path_2" data-name="Path 2" d="M18.5,19.25V6.188L12.313,0H4.75A2.75,2.75,0,0,0,2,2.75v16.5A2.75,2.75,0,0,0,4.75,22h11A2.75,2.75,0,0,0,18.5,19.25ZM12.313,4.125a2.062,2.062,0,0,0,2.063,2.063h2.75V18.913S15.75,16.5,10.25,16.5s-6.875,2.413-6.875,2.413V2.75A1.375,1.375,0,0,1,4.75,1.375h7.563Z" transform="translate(0)"/>
+  </g>
+</svg>

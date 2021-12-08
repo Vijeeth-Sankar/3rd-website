@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+
+*{
+    background: #FF6F00;
+}
+
+
+nav{
+    z-index: 100000;
+    position: fixed;
+}
+
+header{
+    margin-top: -20vh;
+    position: fixed;
+    transition: .6s;
+}
+
+.navbar{
+    box-shadow: none;
+}
+
+.stricky{
+    margin-top: -27.5vh;
+    -webkit-backdrop-filter: blur(4px);
+    -o-backdrop-filter: blur(4px);
+    -moz-backdrop-filter: blur(4px);
+
+    backdrop-filter: blur(4px);
+}
+
+.navbar #vi{
+    top: 2.5vh;
+    left: 25vh;
+    position: absolute;
+    font-size: 4em;
+    font-family: 'Comforter Brush', cursive;
+    font-weight: 200;
+    background: transparent;
+}
+
+div #clound{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: -250px;
+    left: 170px;
+    background: transparent;
+}
+
+div #clound1{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: -130px;
+    left: 100px;
+    background: transparent;
+}
+
+div #clound2{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: -150px;
+    left: -50px;
+    z-index: 0;
+    background: transparent;
+}
+
+#main{
+    width: auto;
+    height: 70vh;
+    display: flex;
+    margin-top: 25vh;
+}
+
+#details{
+    position: relative;
+    background-color: transparent;
+    width: 60vh;
+    height: 60vh;
+    margin-right: 50px;
+}
+
+#insta{
+    top: 5vh;
+    position: relative;
+    width: 60vh;
+    height: 60vh;
+    background-color: transparent;
+    margin-left: 50px;
+}
+
+#hello{
+    position: relative;
+    background-color: transparent;
+}
+
+#me{
+    position: absolute;
+    top: 75px;
+    font-weight: bold;
+    background: transparent;
+}
+
+#vij{
+    position: absolute;
+    top: 70px;
+    font-size: 6em;
+    font-family: "Estonia";
+    font-weight: 400;
+    background: transparent;
+}
+
+#details p{
+    background: transparent;
+    margin-top: 30.5vh;
+    margin-left: 1vh;
+}
+
+#details a{
+    background:transparent;
+    text-decoration: underline;
+    color: black;
+    margin-left: 1vh;
+    font-weight: bold;
+}
+
+#details a:hover{
+    background: white;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    animation: buttons 1s;
+    border-radius: 5px;
+}
+
+@keyframes buttons {
+    0%{
+        background: transparent;
+        box-shadow: 0 0em 0em 0em;
+        transform: translateY(0em);
+    }
+    100%{
+        background: white;
+        box-shadow: 0 0.5em 0.5em -0.4em;
+        transform: translateY(-0.25em);
+    }
+}
+
+#insta img{
+    height: 375px;
+    width: auto;
+    border-radius: 7%;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+#recent{
+    display: flex;
+    color: black;
+}
+
+#left{
+    margin: 7vh;
+}
+
+#left #proname{
+    margin-left: 18vh;
+    font-weight: bold;
+}
+
+/* Clock app*/
+
+#clock {
+    margin-top: 10vh;
+    position: relative;
+    width: 80%;
+  }
+  
+  #image {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: transparent;
+  }
+  
+  #overlay {
+    position: absolute; 
+    top: 0;
+    bottom: 0; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.884));/* Black see-through */
+    color: #f1f1f1; 
+    width: 94.5%;
+    border-radius: 8%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #clock:hover #overlay {
+    opacity: 1;
+  }
+  
+  #text {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    background: transparent;
+    top: 90%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  /* Clock app*/
+
+
+#recent #left a{
+    position: relative;
+    top: 10vh;
+    text-decoration: underline;
+    color: #000000;
+    font-weight: bold;
+    margin-left: 20vh;
+    font-size:1.5vw;
+    transition: 1s ease;
+}
+
+#recent #left a:hover{
+    background-color: antiquewhite;
+}
+
+#right{
+    margin-right: 15vh;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+/* Capture*/
+
+#capture {
+    position: relative;
+    width: 80%;
+  }
+  
+  #capture #image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  #capture #overlay {
+    position: absolute; 
+    top: 0;
+    bottom: 0; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));/* Black see-through */
+    color: #f1f1f1; 
+    width: 94.5%;
+    border-radius: 8%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #capture:hover #overlay {
+    opacity: 1;
+  }
+  
+  #capture #text {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    background: transparent;
+    top: 90%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  
+  /* Capture*/
+
+  /*Web site*/
+
+#web {
+    margin-top: 10vh;
+    position: relative;
+    width: 80%;
+  }
+  
+  #web #image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  #web #overlay {
+    position: absolute; 
+    top: 0;
+    bottom: 0; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));/* Black see-through */
+    color: #f1f1f1; 
+    width: 94.5%;
+    border-radius: 8%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #web:hover #overlay {
+    opacity: 1;
+  }
+  
+  #web #text {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    background: transparent;
+    top: 90%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  
+  /*Website*/
+
+
+  #cerres{
+      display: flex;
+      padding: 10vh;
+  }
+
+  #carplus{
+    margin-left: 10vh;
+    margin-top: 10vh;
+}
+
+#carplus p{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#carplus span{
+    color: white;
+}
+
+#cerres a{
+    text-decoration: none;
+}
+
+ #cerres #resume{
+      position: relative;
+      display: flex;
+      margin-left: 100vh;
+      margin-top: 12vh;
+      align-items: center;
+      padding: 10px;
+      height: 5vh;
+      border-bottom: 2px solid black;
+  }
+
+  #resume img{
+      background: transparent;
+  }
+
+  #resume:hover{
+    border-radius: 20px;
+    transition: .5s ease-in;
+    background: #f1f1f1;
+  }
+
+
+  
+
+  #resume p{
+      margin-top: 2vh;
+      color:#000000;
+      font-size: 18px;
+      font-weight: bold;
+      background: transparent;
+      text-decoration: none;
+  }
+
+  #resume img{
+      margin-left: 5vh;
+      width: 15px;
+  }
+
+  #degree{
+    display: flex;
+    row-gap: 0;
+  }
+
+  #dbox{
+      position: relative;
+      width: 300px;
+      padding-bottom: 100px;
+  }
+
+  #dbox p{
+      top: 0px;
+      left: 20px;
+      position: absolute;
+      background:transparent;
+  }
+
+  #dbox p strong{
+      font-size: 25px;
+  }
+  
+
+  #bor{
+      position: absolute;
+      top: 10px;
+      width: 2px;
+      height: 20px;
+      background: black;
+  }
+
+  #share{
+      position: relative;
+      background: transparent;
+      text-align: center;
+      height: 30vh;
+  }
+
+  #sh{
+      background: transparent;
+      margin-top: 20vh;
+      height: 20vh;
+  }
+  
+#share #sh a{
+    padding: 90px;
+    margin-top: 100vh;
+    background: transparent;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#share #sh #ema{
+    cursor: url('assets/email.png'), pointer;
+}
+
+#share #sh #twi{
+    cursor: url('assets/twitter.png'), pointer;
+}
+
+
+#share #sh #link{
+    cursor: url('assets/linkein.png'), pointer;
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px){
+
+    body{
+        display: inline;
+    }
+
+    header{
+        margin-top: 5vh;
+        font-size: 1vh;
+        width: auto;
+    }
+    
+    .navbar #vi{
+        top: -5vh;
+        left: 5vh;
+        font-size: 6em;
+        font-family: 'Comforter Brush', cursive;
+        font-weight: 200;
+    }
+    
+
+    #main{
+        display: inline;
+        background-color: transparent;
+        height: 55vh;
+        width: auto;
+    }
+    
+    #details{
+        margin-top: 55vh;
+        right: 5px;
+        background: transparent;
+        height: 18vh;
+    }
+
+    #hello{
+        top: -27vh;
+        left: 2vh;
+    }
+
+    #hello #me{
+        font-size: 5vw;
+    }
+
+    
+    #hello #vij{
+        font-size: 30vw;
+    }
+
+    #details p{
+        font-size: 4vw;
+        margin-left: 5vh;
+        margin-top: -3vh;
+        width: 300px;
+        word-wrap: break-word;
+    }
+
+    #details a{
+        font-size: 4vw;
+        margin-left: 5vh;
+    }
+
+    #insta{
+        position: absolute;
+        top: 1vh;
+        right: 13vh; 
+        background: transparent;
+        width: 250px;
+        height: 250px;
+    }
+
+    #insta img{
+        margin-top: 10vh;
+        background: transparent;
+        width: 200px;
+        height: auto;
+    }
+
+    #recent{
+        display: inline;
+    }
+    
+    #left{
+        margin-top: -5vh;
+        margin-left: 0vh;
+    }
+
+    #proname h1{
+        margin-left: -13vh;
+    }
+
+    #proname #clock{
+        margin-top: 12vh;
+    }
+
+    #left a{
+        display: none;
+    }
+    
+
+    #cerres{
+        display: flex;
+        margin-top: -15vh;
+    }
+
+    #cerres #carplus p{
+        margin-left: -15vh;      
+        font-size: 28px;  
+    }
+
+    #cerres #resume{
+        display: none;
+    }
+
+    #degree{
+        margin-top: -5vh;
+        margin-left: 5vh;
+        display: inline-block;
+    }
+
+    #sh{    
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    #sh a{
+        margin: 10px;
+    }
+
+    
+}
